@@ -1,0 +1,91 @@
+.types {
+	padding: 0px 90px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 73px;
+}
+
+.types__wrap h3 {
+	color: black;
+}
+
+.repair__icon {
+	height: 28px;
+	width: 28px;
+	background-image: url('../images/repair.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.types__cards {
+	width: 100%;	
+	display: flex;
+	justify-content: space-between;
+}
+
+.cards__item {
+	width: 30%;
+	height: 608px;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: 100% 60%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.first {
+	background-image: url('../images/card1.png');
+}
+
+.second {
+	background-image: url('../images/card2.png');
+}
+
+.third {
+	background-image: url('../images/card3.png');
+}
+
+.card__desc {
+	background-color: #fff;
+	padding: 25px 34px;
+	box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.03);
+	position: relative;
+}
+
+.card__desc h3 {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 139%;
+	color: #363636;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+.card__list {
+	font-family: var(--font-family);
+	font-weight: 400;
+	margin-left: 0;      /* убираем стандартный margin */
+  	padding-left: 1.2em;;
+	line-height: 205%;
+	color: #959595;	
+}
+
+.price {
+	box-shadow: 5px 5px 10px 0 rgba(227, 184, 115, 0.3);
+	background: #e3b873;
+	padding: 17px 21px;
+	position: absolute;
+	left: 0px;
+	bottom: -25px;
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 139%;
+	text-transform: uppercase;
+	color: #fff;
+}

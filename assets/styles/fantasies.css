@@ -1,0 +1,96 @@
+.fantasies {
+	padding: 112px 0px 41px 0px;
+	position: relative;
+}
+
+.fantasies__content {
+	padding: 140px 0px 100px 100px;
+	background-image: url('../images/fantasies-bg.png');	
+	background-size: cover;
+}
+
+.fantasies__subtitle {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 139%;
+	text-transform: uppercase;
+	color: #e3b873;
+	max-width: 281px;
+	padding-bottom: 47px;
+	margin: 0px;
+}
+
+.fantasies__list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.fantasies__item {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 191%;
+	color: #fff;
+	margin-bottom: 23px;
+} 
+
+.fantasies__item:first-child {
+	text-decoration: underline;
+	text-underline-offset: 0.3em; 
+	text-decoration-color: #e3b873;
+}
+
+.fantasies__item:last-child {
+	margin-bottom: 0px;
+}
+
+.fantasies__images {
+	height: 100%;
+	position: absolute;
+	right: 100px;
+	top: 0px;
+	display: flex;
+	gap: 40px;
+}
+
+.images__column_left, .images__column_right {
+	display: flex;
+	flex-direction: column;
+	width: 353px;
+	gap: 40px;
+	height: 100%;
+}
+
+.fantasy {
+	background-size: cover;
+}
+
+.images__column_left .fantasy:nth-child(1) {
+	width: 100%;
+	height: 55%;
+}
+
+.images__column_left .fantasy:nth-child(2) {
+	width: 100%;
+	height: 34%;
+}
+
+.images__column_right .fantasy:nth-child(1) {
+	width: 100%;
+	height: 34%;
+}
+
+.images__column_right .fantasy:nth-child(2) {
+	width: 100%;
+	height: 55%;
+}
+
+.images__column_right {
+	justify-content: flex-start;
+}
+
+.images__column_left {
+	justify-content: flex-end;
+}

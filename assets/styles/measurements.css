@@ -1,0 +1,144 @@
+.measurements {
+	padding: 62px 90px 0px 250px;
+	height: auto;
+	background-image: url('../images/mesurements_bg.png');
+	background-repeat: no-repeat;
+	background-size: 45%;
+	margin-bottom: 125px;
+}
+
+.measurements__container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+  	grid-template-rows: 1fr auto;
+  	grid-column-gap: 200px; 
+}
+
+.measurements__steps {
+	grid-column: 1;
+	grid-row: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 72px;
+}
+
+.measurements__form {
+	grid-column: 2;
+	grid-row: 1;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.request {
+	width: 	100%;
+	display: flex;
+	flex-direction: column;
+	padding: 28px 49px;
+	box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.05);
+	background: #131313;
+	box-sizing: border-box;	
+}
+
+.discount {
+	grid-column: 2;
+	grid-row: 2;
+}
+
+.step {
+	display: flex;
+	height: auto;
+	align-items: center;
+	gap: 17px;
+}
+
+.step__number {
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	border: 8px solid #fff;
+	box-shadow: 0 5px 15px 0 rgba(227, 184, 115, 0.15);
+	background: #e3b873;
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 139%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+
+.step__content {
+	font-size: 14px;
+	max-width: 320px;
+}
+
+.mesurements__text {
+	color: white;
+	text-align: center;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 143%;
+	text-align: center;
+	color: #fff;
+}
+
+.request .form-group {
+	margin: 20px 0px;
+	width: 100%;
+}
+
+/*.request .form-group .input {
+	width: 100%;
+	background: #131313;
+}
+*/
+.measurements__form .form-group input {
+  width: 100%;
+  background-color: #131313;
+  color: white;
+}
+
+.measurements__form .form-group input::placeholder {
+	color: white;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 164%;
+	color: #fff;
+}
+
+.measurements__form .agreement .checkbox__label {
+	color: white;
+}
+
+.measurements__form .request .form__btn {
+	align-self: flex-end;
+}
+
+.discount {
+	display: flex;
+	align-items: center;
+	margin-top: 40px;
+	gap: 25px;
+}
+
+.discount__icon {
+	width: 72px;
+	height: 72px;
+	border: 1px solid #e3b873;
+	border-radius: 50%;
+	background: #e3b873;
+	background-image: url('../images/discount__icon.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.request .agreement .label .text {
+	color: white;
+}
+
+.request .agreement {
+	margin-bottom: 40px;
+}

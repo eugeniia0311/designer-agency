@@ -1,0 +1,135 @@
+.clients {
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 100px;
+	margin-bottom: 130px;
+}
+
+.clients__title {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 139%;
+	text-transform: uppercase;
+	text-align: center;
+	color: #181818;
+}
+
+.clients__icon {
+	height: 28px;
+	width: 33px;
+	background-image: url('../images/clients-icon.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.clients__stats {
+	text-align: center;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 164%;
+	text-align: center;
+	color: #363636;
+}
+
+.clients__cards {
+	display: flex;
+	gap: 54px;
+	margin-top: 40px;
+}
+
+.client {
+	box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.04);
+	background: #fff;
+	padding: 24px 20px;
+	position: relative;
+}
+
+.client__head {
+	display: flex;
+	gap: 23px;
+	align-items: center;
+	margin-bottom: 22px;
+}
+
+.client__name {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 127%;
+	color: #181818;
+}
+
+.client__avatar {
+	width: 76px;
+	height: 76px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+.client__body p {
+	margin-top: 0;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 180%;
+	color: #959595;
+}
+
+.client__footer	{
+	display: flex;
+	justify-content: space-between;
+	/*height: 54px;*/
+	width: 300px;
+	align-self: flex-start;
+	background-color: #e3b873;
+	position: absolute;
+	bottom: -27px;
+	left: 0px;
+}
+
+.area, .term {
+	width: 50%;
+	height: 100%;
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 139%;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	/*justify-content: space-between;*/
+	justify-content: center;
+	gap: 10px; 	
+	padding: 11px 15px;
+}
+
+.area {
+	border-right: 2px solid white;
+}
+
+.area img {
+	width: 32px;
+}
+
+.term img {
+	width: 32px;
+}
+
+.area p {
+	margin: 0;
+}
+
+ .term p {
+ 	margin: 0;
+ }
+
+
+
+
+

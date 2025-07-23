@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ruslan+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ruslan+Display&family=Yeseva+One&display=swap');
+
+
+:root {
+  --font-family: "Nunito Sans", sans-serif;
+  --second-family: "Yeseva One", sans-serif;
+}
+
+.title {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 139%;
+	letter-spacing: -0.07em;
+	text-transform: uppercase;
+	color: white;
+}
+
+.subtitle {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 139%;
+	text-transform: uppercase;
+	text-align: center;
+	color: #181818;
+}
+
